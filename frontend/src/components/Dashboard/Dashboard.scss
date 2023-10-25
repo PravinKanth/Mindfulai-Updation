@@ -1,0 +1,200 @@
+.dashboard-section{
+    position: relative;
+}
+
+.dashboard{
+    padding: 0rem;
+    z-index: 999;
+    background-color: #f9fafb;
+    height: 7rem;
+    width: 48rem;
+    position: absolute;
+    top: -7.1rem;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.6rem 2rem;
+    border-bottom: 1.5px solid #e7e9e9;
+    max-width: 130rem;
+
+
+    .dashheader-ul{
+        list-style-type:none;
+        display: flex;
+        align-items: center;
+        gap:3rem;
+        // font-family: Graphik Web Medium,sans-serif;
+
+        .dashheader-li{
+            font-size: 1.4rem;
+            background-color: #fff;
+            color: #000000;
+            // border: 1px solid rgba(31, 122, 224,.3);
+            // box-shadow: 0 1px 2px 0 rgba(0,0,0,.06);
+            // padding: 0.7rem 1.2rem;
+            font-weight: 600;
+            border-radius: 5px;
+            cursor: pointer;
+            letter-spacing: 0.5px;
+        }
+
+        .dashheader-li:hover{
+            color:#636363;
+        }
+
+        .dashheader-li1{
+            font-size: 1.6rem;
+            letter-spacing: 1px;
+            background-color: #0961f7;
+            color: #ffffff;
+            border: 2px solid #0961f7;
+            // box-shadow: 0 1px 2px 0 rgba(0,0,0,.06);
+            padding: 0.6rem 1.8rem;
+            transition: all 0.1s;
+            font-weight: 600;
+            border-radius: 50px;
+            
+            cursor: pointer;
+        }
+
+        .dashheader-li1:hover{
+            background-color:#fff ;
+            color: #0961f7;
+
+        }
+    }
+}
+
+.pitch{
+    padding-top: 3rem;
+    max-width: 130rem;
+    margin: 0 auto;
+    // height: 50rem;
+    // background-color: black;
+    font-family: 'Inter', sans-serif;
+
+
+ 
+    
+
+    .flex-cont{
+        display: flex;
+    }
+
+    .pitch-grid{
+        margin-top: 2rem;
+        height: 530.82px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .form-image{
+        width: 45rem;
+        margin-left: 10rem;
+    }
+
+
+
+    .form{
+        // width: 30rem;
+        margin: 0 auto;
+        padding-top: 3rem;
+        .label{display: flex;
+            label{
+                line-height: 2.4rem;
+                font-size: 1.4rem;
+                color: #536387;
+                font-weight: 500;
+                // font-size: 14px;
+                color: #536387!important;
+                padding-top: 1rem;
+                
+            }
+        }
+
+        .input{
+            display: flex;
+            font-weight: 500;
+            font-size: 14px;
+            color: #757575;
+
+        
+        }
+
+        .select{
+            width: 99%;
+            padding: 13px 8px;
+            border-radius: 5px;
+            border: 1.5px solid #e8e6e6;
+            background: #ffffff;
+            font-weight: 500;
+            font-size: 14px;
+            color: #757575;
+            outline: none;
+            resize: none;
+        }
+
+        .in{
+            width: 39rem;
+            line-height: 1.8;
+            outline: none;
+            border-radius: 5px;
+            border: none;
+            background-color: #ffffff;
+            padding-left: 10px;
+            margin-top: 4px;
+            margin-bottom: 6px;
+            border: 1.5px solid #e8e6e6;
+            margin-right: 6px;
+            font-weight: 500;
+            font-size: 14px;
+            color: #757575;
+        }
+
+        .in:focus{
+            border: 1.5px solid rgb(153, 211, 239);
+        }
+
+    }
+
+    .btn{
+        margin-top: 3rem;
+        margin-left: 2rem;
+        background-color: rgb(189, 151, 81);
+        background-color: #6a64f1;
+        outline: none;
+        border: none;
+        cursor: pointer;
+        padding: 1.5rem 2rem;
+        border-radius: 4px;
+        transition: all 0.2s;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        letter-spacing: 2px;
+        font-weight: 500;
+        
+        // font-weight:500;
+    }
+
+    .btn:hover{
+        background-color: rgb(222, 169, 71);
+        background-color: #5047f4;
+    }  
+    
+    
+
+    .flex{
+        display: flex;
+        gap: 19rem;
+
+        .input1{
+            width: 2rem;
+        }
+
+        .input2{
+            width: 17.3rem;
+        }
+    }
+}
